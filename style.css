@@ -67,6 +67,7 @@ img{
     text-align: center;
     vertical-align: middle;
     align-items: center;
+    margin-top: 0.5em;
 }
 
 h1{
@@ -90,6 +91,10 @@ h1{
     border: none;
     padding: .5rem;
 
+}
+
+.iconList{
+    justify-content: space-evenly;
 }
 
 a, p{
@@ -119,8 +124,14 @@ p{
     word-wrap: break-word;
     width: 80%;
     line-height: .9;
+    padding-top: .5em;
+  
 }
 
+ul{
+    margin-left: 0rem;
+    padding-left: 0em;
+}
 li{
     list-style: none;
    font-size: .75em;
@@ -143,8 +154,18 @@ li{
     }
     
  p{
-     width: 50%;
+     width: 30%;
      word-wrap: break-word;
+ }
+
+ #tag{
+     width: 100%;
+     margin-left: 50%;
+ }
+
+ .iconList{
+     margin-left: 20%;
+
  }
 
 .month{
