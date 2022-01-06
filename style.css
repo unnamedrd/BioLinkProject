@@ -1,0 +1,184 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&family=Coustard:wght@400;900&family=Fascinate&family=Great+Vibes&family=Marcellus+SC&family=Sniglet:wght@800&family=Titan+One&display=swap');
+
+
+
+*, 
+*::before, 
+*::after{
+     box-sizing: border-box;
+}
+
+:root{
+   --ff-primary:'Chivo';
+    --ff-secondary:'Marcellus SC';
+
+    --fw-regular: 200;
+    --fw-bold: 400;
+
+    --clr-light:#F2F2F2;
+    --clr-dark:#1C261F;
+    --clr-accent1:#D9D5A0;
+    --clr-accent2:#D9AC59;
+    --clr-accent3:#F27141;
+    --clr-accent4:#F23E2E;
+    --clr-accent5:#A61212;
+    --clr-accent6:#730260;
+
+    --fs-body: 1rem;
+    --fs-a: 1rem;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Assets/job516-namcha-09.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    border-radius: 60%;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.month{
+    display: flex;
+    height: 12rem;
+    width: 12rem;
+    padding: .5em;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+h1{
+    font-family: var(--ff-secondary);
+}
+.buttonList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.linkButtons{
+    height: 4rem;
+    width: 15rem;
+    background-color:var(--clr-accent2);
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+    color:var(--clr-accent1);
+    border-radius:5px;
+    border: none;
+    padding: .5rem;
+
+}
+
+a, p{
+
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 100;
+    font-family: var(--ff-primary);
+    color:var(--clr-accent1)
+}
+a{
+    font-size: 1.3em;
+    color:var(--clr-accent5)
+}
+
+p{
+    margin-left: 1em;
+    width: 75%;
+    color:var(--clr-accent6);
+    font-size: 1em;
+
+}
+
+#title{
+    color: var(--clr-accent3);
+    font-size: 5.75rem;
+    word-wrap: break-word;
+    width: 80%;
+    line-height: .9;
+}
+
+li{
+    list-style: none;
+   font-size: .75em;
+}
+
+.socialLinks{
+    color: var(--clr-accent4);
+    font-size: 2em;
+    padding: .3em;
+
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background-color: var(--clr-accent2);
+    }
+    
+    .linkButtons{
+        width: 20rem;
+    }
+    
+ p{
+     width: 50%;
+     word-wrap: break-word;
+ }
+
+.month{
+    display: flex;
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border: white solid .2rem ;
+    background-color: var(--clr-accent3);
+    padding: .5em;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+  #title{
+      color: var(--clr-accent1);
+      size: 3rem;
+
+}
+
+
+    .container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./Assets/job516-namcha-09.jpg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+        box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+
+
+    }
+}
